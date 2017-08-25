@@ -12,6 +12,21 @@ eclipse {
 sourceCompatibility = 1.8
 version = '1.0'
 
+sourceSets {
+	main {
+		java {
+			srcDir 'src/main/java'
+			srcDir 'src/main/groovy'
+			srcDir 'buildSrc/src/main/java'
+			srcDir 'buildSrc/src/main/groovy'
+		}
+		resources {
+			srcDir 'src/resources'
+			srcDir 'buildSrc/src/resources'
+		}
+	}
+}
+
 repositories { 
 	maven { url "http://m2repo.system.local/content/groups/full/" } 
 }
@@ -24,11 +39,18 @@ dependencies {
 	testCompile ("org.spockframework:spock-core:1.1-groovy-2.4") {
 		exclude group:'org.codehaus.groovy'
 	}
-	testCompile ("org.apache.commons:commons-compress:1.14")
+	compile ("org.apache.commons:commons-compress:1.14")
+	
+	compile gradleApi()
+	compile localGroovy()
 }
 
 compileJava.options.encoding = 'ISO-8859-1'
 
 tasks.withType(JavaCompile) {
     options.encoding = 'ISO-8859-1'
+}
+
+task greeting(type: org.gradle.GreetingTask) {
+	greeting = 'howdy!' //Overrids property in Task class
 }
