@@ -1,0 +1,34 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'groovy'
+
+eclipse {
+	classpath {
+		downloadJavadoc = true
+		downloadSources = true
+	}
+}
+
+sourceCompatibility = 1.8
+version = '1.0'
+
+repositories { 
+	maven { url "http://m2repo.system.local/content/groups/full/" } 
+}
+
+dependencies {		    
+	testCompile 'org.assertj:assertj-core:3.8.0'
+	testCompile 'junit:junit:4.12'
+    testCompile "org.mockito:mockito-core:2.8.47"
+	testCompile gradleTestKit()
+	testCompile ("org.spockframework:spock-core:1.1-groovy-2.4") {
+		exclude group:'org.codehaus.groovy'
+	}
+	testCompile ("org.apache.commons:commons-compress:1.14")
+}
+
+compileJava.options.encoding = 'ISO-8859-1'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'ISO-8859-1'
+}
