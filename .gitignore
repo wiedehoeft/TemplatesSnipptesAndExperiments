@@ -1,0 +1,11 @@
+#Ignore compilation and build results
+bin/
+build/
+
+#Ignore eclipse specific files
+.classpath
+.project
+.settings/
+
+#Ignore gradle specific files
+.gradle/
