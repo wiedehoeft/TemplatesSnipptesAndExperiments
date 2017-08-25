@@ -1,7 +1,5 @@
 package apachecommonscompress
 
-import org.apache.commons.compress.archivers.tar.TarArchiveInputStream
-import org.apache.commons.compress.compressors.gzip.GzipCompressorInputStream
 import org.junit.Rule
 import org.junit.rules.TemporaryFolder
 
@@ -13,7 +11,6 @@ class ExploringCompressLibrary extends Specification {
 	@Rule final TemporaryFolder testProjectDir = new TemporaryFolder()
 
 	def File tarFile
-
 	def TarGzCreator tarGzCreator
 
 	def setup() {
@@ -24,6 +21,7 @@ class ExploringCompressLibrary extends Specification {
 	def "create tar for test"() {
 		given:
 		def file = testProjectDir.newFile("Demo.txt")
+
 		when:
 		def tarGzFile = tarGzCreator.create(file, tarFile)
 

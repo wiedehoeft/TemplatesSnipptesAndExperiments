@@ -14,9 +14,7 @@ class TarGzCreator {
 		def bOut = new BufferedOutputStream(fOut)
 		def gzOut = new GzipCompressorOutputStream(bOut)
 		def tOut = new TarArchiveOutputStream(gzOut)
-
 		def fileToURIGetPath = sourceFile.toURI().getPath()
-
 		def demoTar = new TarArchiveEntry(sourceFile, sourceFile.getName())
 
 		tOut.putArchiveEntry(demoTar)
