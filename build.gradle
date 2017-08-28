@@ -14,15 +14,18 @@ version = '1.0'
 
 sourceSets {
 	main {
-		java {
-			srcDir 'src/main/java'
-			srcDir 'src/main/groovy'
-			srcDir 'buildSrc/src/main/java'
-			srcDir 'buildSrc/src/main/groovy'
+		java { 
+			srcDir 'src/main/java' 
 		}
+		
 		resources {
 			srcDir 'src/resources'
 			srcDir 'buildSrc/src/resources'
+		}
+
+		groovy {
+			srcDir 'src/main/groovy'
+			srcDir 'buildSrc/src/main/groovy'
 		}
 	}
 }
