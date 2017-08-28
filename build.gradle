@@ -30,30 +30,24 @@ sourceSets {
 	}
 }
 
-repositories { 
-	maven { url "http://m2repo.system.local/content/groups/full/" } 
+repositories {  
+	maven { 
+		url "http://m2repo.system.local/content/groups/full/" 
+	}  
 }
 
-dependencies {		    
+dependencies {
 	testCompile 'org.assertj:assertj-core:3.8.0'
 	testCompile 'junit:junit:4.12'
-    testCompile "org.mockito:mockito-core:2.8.47"
+	testCompile "org.mockito:mockito-core:2.8.47"
 	testCompile gradleTestKit()
-	testCompile ("org.spockframework:spock-core:1.1-groovy-2.4") {
-		exclude group:'org.codehaus.groovy'
+	testCompile ("org.spockframework:spock-core:1.1-groovy-2.4") { 
+		exclude group:'org.codehaus.groovy' 
 	}
 	compile ("org.apache.commons:commons-compress:1.14")
-	
+
 	compile gradleApi()
 	compile localGroovy()
 }
 
 compileJava.options.encoding = 'ISO-8859-1'
-
-tasks.withType(JavaCompile) {
-    options.encoding = 'ISO-8859-1'
-}
-
-task greeting(type: org.gradle.GreetingTask) {
-	greeting = 'howdy!' //Overrids property in Task class
-}
