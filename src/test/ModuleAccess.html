@@ -4,21 +4,26 @@
     <meta charset="UTF-8">
     <title>Test module access</title>
     <script src="../modules/modulePattern/PersonModule.js"></script>
+    <script src="../modules/cjs/CjsModule.js"></script>
 </head>
 <body>
-    <script>
-        /* Anonymous closure*/
-        gradeCalc();
+<script>
+    /* Anonymous closure*/
+    gradeCalc();
 
-        /* Global Import */
-        var myGrades = [93, 95, 88, 0, 55, 91];
-        console.log(myGrades);
-        //reduce(myGrades, demo, undefined);
-        console.log(myGrades);
+    /* Global Import */
+    var myGrades = [93, 95, 88, 0, 55, 91];
+    console.log(myGrades);
+    //reduce(myGrades, demo, undefined);
+    console.log(myGrades);
 
-        /*Object interface*/
-        console.log("From inside html: " + myGradesCalculate.average());
-        console.log("From inside html: " + myGradesCalculate.failing());
-    </script>
+    /*Object interface*/
+    console.log("From inside html: " + myGradesCalculate.average());
+    console.log("From inside html: " + myGradesCalculate.failing());
+</script>
+
+<script>
+    //new cjsModuleInstance().hello(); => "module is not defined"
+</script>
 </body>
 </html>
