@@ -1,0 +1,19 @@
+{
+  "name": "templatessnipptesandexperiments",
+  "version": "1.0.0",
+  "description": "A project for experiments and demos to use as lookup and for project setups",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wiedehoeft/TemplatesSnipptesAndExperiments.git"
+  },
+  "author": "Christian Wiedehöft",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wiedehoeft/TemplatesSnipptesAndExperiments/issues"
+  },
+  "homepage": "https://github.com/wiedehoeft/TemplatesSnipptesAndExperiments#readme"
+}
