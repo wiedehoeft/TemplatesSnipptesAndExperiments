@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4edee1c7-2f2e-4986-87dc-a612800936fd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/ModuleAccess.html" afterPath="$PROJECT_DIR$/src/test/ModuleAccess.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/ModuleAcessTests.js" afterPath="$PROJECT_DIR$/src/test/ModuleAcessTests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/main.js" afterPath="$PROJECT_DIR$/src/test/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +17,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="umdModule.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/modules/umd/umdModule.js">
+      <file leaf-file-name="es6Module.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/modules/es6/es6Module.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="4" />
+            <state relative-caret-position="0">
+              <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloModule.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/modules/es6/HelloModule.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloModuleTest.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/modules/es6/HelloModuleTest.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".babelrc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.babelrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -30,68 +70,8 @@
       <file leaf-file-name="ModuleAcessTests.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/ModuleAcessTests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tests.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/tests.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModuleAccess.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/ModuleAccess.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qunitTest.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/qunitTest.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="amdModule.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/modules/amdModule.js">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="umdModule.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/modules/umdModule.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="66" lean-forward="false" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -120,7 +100,6 @@
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/modules/modulePattern/PersonModule.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/modules/cjs/CjsModule.js" />
         <option value="$PROJECT_DIR$/src/test/ModuleAcessTests.js" />
         <option value="$PROJECT_DIR$/src/test/qunitTest.html" />
@@ -129,6 +108,11 @@
         <option value="$PROJECT_DIR$/src/test/ModuleAccess.html" />
         <option value="$PROJECT_DIR$/src/test/main.js" />
         <option value="$PROJECT_DIR$/src/modules/umdModule.js" />
+        <option value="$PROJECT_DIR$/.babelrc" />
+        <option value="$PROJECT_DIR$/src/modules/es6/es6Module.js" />
+        <option value="$PROJECT_DIR$/src/modules/es6/HelloModuleTest.js" />
+        <option value="$PROJECT_DIR$/src/modules/es6/HelloModule.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -182,6 +166,41 @@
             <path>
               <item name="TemplatesSnipptesAndExperiments" type="b2602c69:ProjectViewProjectNode" />
               <item name="TemplatesSnipptesAndExperiments" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TemplatesSnipptesAndExperiments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TemplatesSnipptesAndExperiments" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TemplatesSnipptesAndExperiments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TemplatesSnipptesAndExperiments" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TemplatesSnipptesAndExperiments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TemplatesSnipptesAndExperiments" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="es6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TemplatesSnipptesAndExperiments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TemplatesSnipptesAndExperiments" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="es6" type="462c0819:PsiDirectoryNode" />
+              <item name="HelloModuleTest.js" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="TemplatesSnipptesAndExperiments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TemplatesSnipptesAndExperiments" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -194,7 +213,8 @@
               <item name="TemplatesSnipptesAndExperiments" type="b2602c69:ProjectViewProjectNode" />
               <item name="TemplatesSnipptesAndExperiments" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="es6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -211,7 +231,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="JavaScriptPreferStrict" value="true" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
@@ -234,8 +254,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.We want to test how we can access the different module formates">
+  <component name="RunManager" selected="Mocha.dist/src/modules/es6/HelloModuleTest.js">
     <configuration name="CjsModule.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="CjsModule.js" working-dir="$PROJECT_DIR$/src/modules/cjs" />
+    <configuration name="We want to test how we can access the different module formates (1)" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/src/modules/es6/HelloModuleTest.js</test-file>
+      <test-names>
+        <name value="We want to test how we can access the different module formates" />
+      </test-names>
+    </configuration>
     <configuration name="We want to test how we can access the different module formates" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -263,21 +297,6 @@
       <test-names>
         <name value="We want to test how we can access the different module formates" />
         <name value="Test access when CJS pattern is used" />
-      </test-names>
-    </configuration>
-    <configuration name="We want to test how we can access the different module formates.Test access when module pattern is used" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/src/test/ModuleAcessTests.js</test-file>
-      <test-names>
-        <name value="We want to test how we can access the different module formates" />
-        <name value="Test access when module pattern is used" />
       </test-names>
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -360,18 +379,31 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="4">
+    <configuration name="dist/src/modules/es6/HelloModuleTest.js" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/dist/src/modules/es6/HelloModuleTest.js</test-file>
+    </configuration>
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Mocha.We want to test how we can access the different module formates" />
-      <item index="1" class="java.lang.String" itemvalue="Mocha.We want to test how we can access the different module formates.Test access when module pattern is used" />
-      <item index="2" class="java.lang.String" itemvalue="Mocha.We want to test how we can access the different module formates.Test access when CJS pattern is used" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.CjsModule.js" />
+      <item index="1" class="java.lang.String" itemvalue="Mocha.We want to test how we can access the different module formates.Test access when CJS pattern is used" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.CjsModule.js" />
+      <item index="3" class="java.lang.String" itemvalue="Mocha.We want to test how we can access the different module formates (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Mocha.dist/src/modules/es6/HelloModuleTest.js" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Mocha.We want to test how we can access the different module formates" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.CjsModule.js" />
-        <item index="2" class="java.lang.String" itemvalue="Mocha.We want to test how we can access the different module formates.Test access when CJS pattern is used" />
-        <item index="3" class="java.lang.String" itemvalue="Mocha.We want to test how we can access the different module formates.Test access when module pattern is used" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Mocha.dist/src/modules/es6/HelloModuleTest.js" />
+        <item index="1" class="java.lang.String" itemvalue="Mocha.We want to test how we can access the different module formates (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Mocha.We want to test how we can access the different module formates" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.CjsModule.js" />
+        <item index="4" class="java.lang.String" itemvalue="Mocha.We want to test how we can access the different module formates.Test access when CJS pattern is used" />
       </list>
     </recent_temporary>
   </component>
@@ -390,39 +422,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="We_want_to_test_how_we_can_access_the_different_module_formates - 2017.12.27 at 11h 54m 20s.xml">
-      <configuration name="We want to test how we can access the different module formates" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="dist_src_modules_es6_HelloModuleTest_js - 2017.12.27 at 12h 32m 22s.xml">
+      <configuration name="dist/src/modules/es6/HelloModuleTest.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="We_want_to_test_how_we_can_access_the_different_module_formates - 2017.12.27 at 11h 57m 23s.xml">
-      <configuration name="We want to test how we can access the different module formates" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="dist_src_modules_es6_HelloModuleTest_js - 2017.12.27 at 12h 32m 35s.xml">
+      <configuration name="dist/src/modules/es6/HelloModuleTest.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="We_want_to_test_how_we_can_access_the_different_module_formates - 2017.12.27 at 11h 57m 35s.xml">
-      <configuration name="We want to test how we can access the different module formates" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="dist_src_modules_es6_HelloModuleTest_js - 2017.12.27 at 12h 32m 45s.xml">
+      <configuration name="dist/src/modules/es6/HelloModuleTest.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="We_want_to_test_how_we_can_access_the_different_module_formates - 2017.12.27 at 11h 57m 49s.xml">
-      <configuration name="We want to test how we can access the different module formates" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="dist_src_modules_es6_HelloModuleTest_js - 2017.12.27 at 12h 33m 47s.xml">
+      <configuration name="dist/src/modules/es6/HelloModuleTest.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="We_want_to_test_how_we_can_access_the_different_module_formates_Test_access_when_CJS_pattern_is_used - 2017.12.27 at 11h 02m 07s.xml">
-      <configuration name="We want to test how we can access the different module formates.Test access when CJS pattern is used" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="dist_src_modules_es6_HelloModuleTest_js - 2017.12.27 at 12h 33m 57s.xml">
+      <configuration name="dist/src/modules/es6/HelloModuleTest.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="We_want_to_test_how_we_can_access_the_different_module_formates_Test_access_when_CJS_pattern_is_used - 2017.12.27 at 11h 02m 15s.xml">
-      <configuration name="We want to test how we can access the different module formates.Test access when CJS pattern is used" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="dist_src_modules_es6_HelloModuleTest_js - 2017.12.27 at 12h 35m 32s.xml">
+      <configuration name="dist/src/modules/es6/HelloModuleTest.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="We_want_to_test_how_we_can_access_the_different_module_formates_Test_access_when_CJS_pattern_is_used - 2017.12.27 at 11h 02m 48s.xml">
-      <configuration name="We want to test how we can access the different module formates.Test access when CJS pattern is used" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="dist_src_modules_es6_HelloModuleTest_js - 2017.12.27 at 12h 36m 15s.xml">
+      <configuration name="dist/src/modules/es6/HelloModuleTest.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="We_want_to_test_how_we_can_access_the_different_module_formates_Test_access_when_CJS_pattern_is_used - 2017.12.27 at 11h 03m 31s.xml">
-      <configuration name="We want to test how we can access the different module formates.Test access when CJS pattern is used" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="dist_src_modules_es6_HelloModuleTest_js - 2017.12.27 at 12h 36m 28s.xml">
+      <configuration name="dist/src/modules/es6/HelloModuleTest.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="We_want_to_test_how_we_can_access_the_different_module_formates_Test_access_when_CJS_pattern_is_used - 2017.12.27 at 11h 03m 34s.xml">
-      <configuration name="We want to test how we can access the different module formates.Test access when CJS pattern is used" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="dist_src_modules_es6_HelloModuleTest_js - 2017.12.27 at 12h 36m 37s.xml">
+      <configuration name="dist/src/modules/es6/HelloModuleTest.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="We_want_to_test_how_we_can_access_the_different_module_formates_Test_access_when_CJS_pattern_is_used - 2017.12.27 at 11h 03m 54s.xml">
-      <configuration name="We want to test how we can access the different module formates.Test access when CJS pattern is used" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="dist_src_modules_es6_HelloModuleTest_js - 2017.12.27 at 12h 36m 48s.xml">
+      <configuration name="dist/src/modules/es6/HelloModuleTest.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5183000" />
+    <option name="totallyTimeSpent" value="6678000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="31" width="1926" height="1052" extended-state="6" />
@@ -435,14 +467,15 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -450,11 +483,31 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -568,9 +621,9 @@
         <state relative-caret-position="374">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <marker date="1514371671641" expanded="true" signature="0:680" ph="{&quot;name&quot;: &quot;templatessnipptesandexperiments&quot;...}" />
-            <marker date="1514371671641" expanded="true" signature="200:215" ph="{&quot;test&quot;: &quot;karma start&quot;...}" />
-            <marker date="1514371671641" expanded="true" signature="673:678" ph="{&quot;karma&quot;: &quot;^2.0.0&quot;...}" />
+            <marker date="1514374332066" expanded="true" signature="0:800" ph="{&quot;name&quot;: &quot;templatessnipptesandexperiments&quot;...}" />
+            <marker date="1514374332066" expanded="true" signature="200:215" ph="{&quot;test&quot;: &quot;karma start&quot;...}" />
+            <marker date="1514374332066" expanded="true" signature="673:798" ph="{&quot;karma&quot;: &quot;^2.0.0&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -591,13 +644,6 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -625,22 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ModuleAcessTests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/qunitTest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/ModuleAccess.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -657,10 +687,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/umdModule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/modules/amdModule.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/qunitTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -673,10 +719,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/umdModule.js">
+    <entry file="file://$PROJECT_DIR$/src/test/ModuleAcessTests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="66" lean-forward="false" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/src/modules/es6/HelloModule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/es6/es6Module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/es6/HelloModule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/es6/HelloModuleTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding />
         </state>
       </provider>
