@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Test module access</title>
     <script src="../modules/modulePattern/PersonModule.js"></script>
-    <script src="../modules/cjs/CjsModule.js"></script>
 </head>
 <body>
 <script>
@@ -24,6 +23,11 @@
 
 <script>
     //new cjsModuleInstance().hello(); => "module is not defined"
+</script>
+
+<script data-main="main" src="require.js"></script>
+<script>
+
 </script>
 </body>
 </html>
