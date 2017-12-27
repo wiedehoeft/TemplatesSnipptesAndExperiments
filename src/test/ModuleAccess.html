@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test module access</title>
+    <script src="../modules/modulePattern/PersonModule.js"></script>
+</head>
+<body>
+    <script>
+        /* Anonymous closure*/
+        gradeCalc();
+
+        /* Global Import */
+        var myGrades = [93, 95, 88, 0, 55, 91];
+        console.log(myGrades);
+        //reduce(myGrades, demo, undefined);
+        console.log(myGrades);
+
+        /*Object interface*/
+        console.log("From inside html: " + myGradesCalculate.average());
+        console.log("From inside html: " + myGradesCalculate.failing());
+    </script>
+</body>
+</html>

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/wiedehoeft/TemplatesSnipptesAndExperiments/issues"
   },
-  "homepage": "https://github.com/wiedehoeft/TemplatesSnipptesAndExperiments#readme"
+  "homepage": "https://github.com/wiedehoeft/TemplatesSnipptesAndExperiments#readme",
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
 }
