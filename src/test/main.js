@@ -1,7 +1,11 @@
 requirejs.config({
-    baseUrl: '../modules/amd',
+    baseUrl: '../modules',
 });
 
 requirejs(["amdModule"], function(amdModule) {
-    console.log("From main.js: " + amdModule.hello);
+    console.log("From amd main.js: " + amdModule.hello);
+});
+
+requirejs(["umdModule"], function(umdModule) {
+    console.log("From umd main.js: " + umdModule.hello());
 });
