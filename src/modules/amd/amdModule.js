@@ -1,6 +1,6 @@
 "use strict";
 
-define(['amdModule'], function (amdModule) {
+define(function () {
     return {
         hello: "hello from amd module"
     };
