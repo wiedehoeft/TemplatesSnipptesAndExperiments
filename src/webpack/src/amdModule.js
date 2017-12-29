@@ -1,7 +1,6 @@
 "use strict";
 
-define(['amdModule'], function (amdModule) {
-    return {
-        hello: "hello from amd module"
-    };
+define(['DivisibleCalculator'], function (divisibleCalculator) {
+
+    return {hello: " " + divisibleCalculator.dividableByThree(3)}
 });

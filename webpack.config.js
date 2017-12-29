@@ -9,6 +9,7 @@ module.exports = {
     resolve: {
         modules: [
             'src/webpack/src',
+            'src/webpack/src/components',
             'node_modules'
         ]
     }

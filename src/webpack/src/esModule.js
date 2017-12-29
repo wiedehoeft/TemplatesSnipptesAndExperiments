@@ -1,4 +1,4 @@
-const amdModule = require("./amdModule");
+const amdModule = require("amdModule");
 
 export class esModule {
     sayHello() {
