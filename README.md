@@ -7,7 +7,7 @@
 Project-Structure
 * src/modules contains examples for different module formats
 * src/test contains examples how the modules can be accessed
-* Correlation of files
+* Correlation of files (Module implemenations and showcases/tests)
   * modulePattern/, amd/, umd/
     * `ModuleAccess.html` and `main.js`: Open in browser and have a look at developer console 
     * `ModuleAccessTests.js`: Run with mocha after transpiling (TODO: add script steps)
