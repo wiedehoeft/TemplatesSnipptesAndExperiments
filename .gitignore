@@ -2,10 +2,13 @@
 bin/
 build/
 
-#Ignore eclipse specific files
+#Ignore ide specific files
 .classpath
 .project
 .settings/
+*.iml
+out/
+.idea/
 
 #Ignore gradle specific files
 .gradle/
