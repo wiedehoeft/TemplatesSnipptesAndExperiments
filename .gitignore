@@ -2,7 +2,7 @@
 bin/
 build/
 
-#Ignore eclipse specific files
+#Ignore ide specific files
 .classpath
 .project
 .settings/
@@ -12,3 +12,4 @@ out/
 
 #Ignore gradle specific files
 .gradle/
+
