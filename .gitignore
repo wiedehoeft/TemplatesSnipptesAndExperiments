@@ -6,6 +6,9 @@ build/
 .classpath
 .project
 .settings/
+*.iml
+out/
+.idea/
 
 #Ignore gradle specific files
 .gradle/
