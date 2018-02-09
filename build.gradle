@@ -1,20 +1,49 @@
 apply plugin: 'java'
 apply plugin: 'eclipse'
-apply plugin: 'idea'
+
+// added
+apply plugin: 'jacoco'
 
 eclipse {
-	classpath {
-		downloadJavadoc = true
-		downloadSources = true
-	}
+    classpath {
+        downloadJavadoc = true
+        downloadSources = true
+    }
 }
 
 sourceCompatibility = 1.8
 version = '1.0'
 
+sourceSets {
+    integrationTest {
+        java {
+            srcDirs 'src/test/cucumber'
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
 
 dependencies {
-	testCompile 'org.assertj:assertj-core:3.8.0'
-	testCompile 'junit:junit:4.12'
-	testCompile "org.mockito:mockito-core:2.8.47"
+    testCompile 'org.assertj:assertj-core:3.8.0'
+    testCompile 'junit:junit:4.12'
+    testCompile "org.mockito:mockito-core:2.8.47"
+
+    // added
+    testCompile 'io.cucumber:cucumber-java8:2.3.1'
+    testCompile 'io.cucumber:cucumber-junit:2.3.1'
 }
+
+configurations {
+    integrationTestCompile.extendsFrom testCompile
+    integrationTestRuntime.extendsFrom testRuntime
+}
+
+task runCucumberTests(type: Test, dependsOn: 'fatJar') {
+    description = "Run Integration Tests"
+    testClassesDirs = sourceSets.integrationTest.output.classesDirs
+    classpath = sourceSets.integrationTest.runtimeClasspath
+}
+
