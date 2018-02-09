@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TemplatesSnipptesAndExperiments.iml" filepath="$PROJECT_DIR$/TemplatesSnipptesAndExperiments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TemplatesSnipptesAndExperiments_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/TemplatesSnipptesAndExperiments_integrationTest.iml" group="TemplatesSnipptesAndExperiments" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TemplatesSnipptesAndExperiments_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TemplatesSnipptesAndExperiments_main.iml" group="TemplatesSnipptesAndExperiments" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TemplatesSnipptesAndExperiments_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TemplatesSnipptesAndExperiments_test.iml" group="TemplatesSnipptesAndExperiments" />
     </modules>
   </component>
 </project>
