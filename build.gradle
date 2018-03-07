@@ -1,3 +1,6 @@
+group 'de.wiedehoeft.injectionExamples'
+version '1.0-SNAPSHOT'
+
 apply plugin: 'java'
 apply plugin: 'eclipse'
 
@@ -7,20 +10,17 @@ repositories {
 }
 
 eclipse {
-	classpath {
-		downloadJavadoc = true
-		downloadSources = true
-	}
+    classpath {
+        downloadJavadoc = true
+        downloadSources = true
+    }
 }
 
 sourceCompatibility = 1.8
-version = '1.0'
 
 sourceSets {
-    integrationTest {
-        java {
-            compileClasspath += srcDirs 'src/test/fit'
-        }
+    main {
+        output.resourcesDir = 'build/classes/main'
     }
 }
 
@@ -30,16 +30,22 @@ configurations {
 }
 
 dependencies {
-	testCompile 'org.assertj:assertj-core:3.8.0'
-	testCompile 'junit:junit:4.12'
-	testCompile "org.mockito:mockito-core:2.8.47"
-	testCompile 'com.c2.fit:fit:1.1'
-}
+    // Guice
+    compile group: 'com.google.inject', name: 'guice', version: '4.2.0'
 
-task fit(type: JavaExec) {
-    classpath = sourceSets.integrationTest.runtimeClasspath
+    // Weld
+    compile "org.jboss.weld.se:weld-se:2.4.6.Final"
 
-    main = 'fit.FileRunner'
+    // HK2
+    compile group: 'org.glassfish.hk2', name: 'hk2', version: '2.4.0'
 
-    args 'src/test/fit/alltests.html', 'src/test/fit/alltests-result.html'
+    // HK2: Metadata-generator
+    compile group: 'javax.inject', name: 'javax.inject', version: '1'
+    compile group: 'org.glassfish.hk2', name: 'hk2-utils', version: '2.4.0-b14'
+    compile group: 'org.glassfish.hk2', name: 'hk2-api', version: '2.4.0-b14'
+    compile group: 'org.glassfish.hk2', name: 'hk2-metadata-generator', version: '2.4.0-b14'
+
+    // Testing
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile group: 'org.mockito', name: 'mockito-all', version: '1.10.19'
 }
